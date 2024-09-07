@@ -1,1 +1,1 @@
-rootProject.name = "pp-user-service"
+rootProject.name = "start-in-spring"

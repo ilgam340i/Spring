@@ -18,12 +18,10 @@ repositories {
 }
 
 dependencies {
-    implementation("org.postgresql:postgresql:42.2.8")
-    implementation("org.hibernate:hibernate-core:6.5.2.Final")
-    implementation("org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final")
-
+    implementation("org.springframework:spring-core:5.3.14")
+    implementation("org.springframework:spring-context:5.3.14")
+    testImplementation("org.springframework:spring-test:5.3.14")
     testImplementation("junit:junit:4.13.2")
-
 }
 
 tasks {
