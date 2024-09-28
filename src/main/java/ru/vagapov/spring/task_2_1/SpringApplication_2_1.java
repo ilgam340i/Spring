@@ -19,15 +19,10 @@ public class SpringApplication_2_1 {
         System.out.println(bean1.getMessage());
         System.out.println(bean==bean1);
         Cat bean2 = (Cat) applicationContext.getBean("cat");
-        System.out.println(bean2.getName());
+        System.out.println(bean2.getMessage());
         Cat bean3 = (Cat) applicationContext.getBean("cat");
-        System.out.println(bean3.getName());
+        System.out.println(bean3.getMessage());
         System.out.println(bean2==bean3);
-
-
-
-
-
     }
 
 }
