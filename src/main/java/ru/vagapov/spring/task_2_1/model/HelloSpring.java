@@ -12,3 +12,4 @@ public class HelloSpring {
         this.message = message;
     }
 }
+
